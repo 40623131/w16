@@ -69,7 +69,7 @@
 <v t="leo.20171116033046.40"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20171116033046.41" a="E"><vh>w4-6</vh>
+<v t="leo.20171116033046.41"><vh>w4-6</vh>
 <v t="leo.20171116033046.42" a="E"><vh>上課大綱</vh>
 <v t="leo.20171116033046.43"><vh>內容</vh></v>
 </v>
@@ -91,12 +91,41 @@
 <v t="leo.20171116033046.54"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20171116033046.55" a="E"><vh>期中簡報</vh>
+<v t="leo.20171116033046.55"><vh>期中簡報</vh>
 <v t="leo.20171116033046.56" a="E"><vh>學習心得</vh>
 <v t="leo.20171116033046.57"><vh>內容</vh></v>
 </v>
 <v t="leo.20171116033046.58" a="E"><vh>自評成績</vh>
 <v t="leo.20171116033046.59"><vh>內容</vh></v>
+</v>
+</v>
+<v t="leo.20180111044332.1"><vh>w10-12</vh>
+<v t="leo.20180111044332.2"><vh>上課大綱</vh>
+<v t="leo.20180111044332.3"><vh>內容</vh></v>
+</v>
+<v t="leo.20180111044332.4"><vh>客製化隨身系統</vh>
+<v t="leo.20180111044332.5"><vh>內容</vh></v>
+</v>
+<v t="leo.20180111045242.1"><vh>申請Github帳號</vh>
+<v t="leo.20180111045242.2"><vh>內容</vh></v>
+</v>
+</v>
+<v t="leo.20180111045338.1"><vh>w13-15</vh>
+<v t="leo.20180111045338.2" a="E"><vh>上課大綱</vh>
+<v t="leo.20180111045338.3"><vh>內容</vh></v>
+</v>
+</v>
+<v t="leo.20180111045732.1"><vh>w16-18</vh>
+<v t="leo.20180111045732.2" a="E"><vh>上課大綱</vh>
+<v t="leo.20180111045732.3"><vh>內容</vh></v>
+</v>
+<v t="leo.20180111050040.1" a="E"><vh>個人計算機</vh>
+<v t="leo.20180111050040.2"><vh>內容</vh></v>
+</v>
+</v>
+<v t="leo.20180111050438.1" a="E"><vh>期末簡報</vh>
+<v t="leo.20180111050438.2" a="E"><vh>自評成績</vh>
+<v t="leo.20180111050438.3"><vh>內容</vh></v>
 </v>
 </v>
 <v t="leo.20171116033046.60" a="E"><vh>隨身碟內容介紹</vh>
@@ -1510,5 +1539,125 @@ def domake():
 # 利用執行緒執行 https 伺服器
 make = threading.Thread(target=domake)
 make.start()</t>
+<t tx="leo.20180111044332.1">&lt;section&gt;
+    @others
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20180111044332.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20180111044332.3"># W10-W12 檢討週
+
+* 利用 Eric6 完成計算機對話框所需按鍵的配置, 了解如何使用格點佈局, 了解如何設定 Dialog, pressButton 與 lineEdit 物件的尺寸大小, 了解如何命名物件, 了解如何設定 clicked 與 connect 方法。
+* 客製化自己的隨身系統
+* 申請Github帳號</t>
+<t tx="leo.20180111044332.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20180111044332.5">## 客製化隨身系統
+
+* 使用者可以配合需求修改 start.bat, stop.bat 以及 launchLeo.py, 讓系統啟動時, 自行建立進入特定目錄的命令列視窗, 並且自動開啟特定 Leo Editor 專案.</t>
+<t tx="leo.20180111045242.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20180111045242.2">## 申請Github帳號
+
+* 利用學校配發的電子郵箱申請 Github 帳號, 目的是以小組協同的模式, 執行各自的期末專案.</t>
+<t tx="leo.20180111045338.1">&lt;section&gt;
+    @others
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20180111045338.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20180111045338.3"># W13-W15 專案執行週
+
+* 組別協同完成工程用計算器程式
+* 將操作過程敘述與操作影片送入網誌與投影片
+* 了解程式碼，如何使按鈕有功能
+* 學習如何排除協同時產生的衝突</t>
+<t tx="leo.20180111045732.1">&lt;section&gt;
+    @others
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20180111045732.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20180111045732.3"># W16-W18 期末考週
+
+* 分組協同製作期末報告
+* 個人製作簡易計算機
+* 繳交製作影片與心得
+* 介紹投影片並錄製成個人期末報告</t>
+<t tx="leo.20180111050040.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20180111050040.2">## 錄影錄下如何製作簡易計算機
+
+&lt;iframe width="640" height="492" src="https://www.youtube.com/embed/MgiMIXOO-qE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20180111050438.1">&lt;section&gt;
+    @others
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20180111050438.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20180111050438.3"># 期末簡報
+
+*自評成績：75分</t>
 </tnodes>
 </leo_file>
